@@ -1,0 +1,80 @@
+@charset "utf-8";
+.nav-data{
+	box-shadow: 0px 3px 3px 3px #ddd;
+}
+#img-data{
+border:2px solid white;
+box-shadow: 0px 3px 3px #ddd;
+border-radius: 50%;
+padding: 2px;
+}
+#home{
+	margin-bottom:0;
+	padding-bottom: 0;
+	background-color: white;
+}
+.fredoka-clr{
+	font-family: 'Fredoka One';
+	font-weight: bold;
+}
+#services{
+	padding: 0;
+	margin: 0;
+}
+.i-tag i{
+	width: 40px;
+	height: 40px;
+	border:1px solid #ccc;
+	border-radius: 20px;
+	padding-top: 8px;
+	box-shadow: 0px 3px 6px #ddd;
+}
+.i-tag p{
+	font-family: 'Nunito',sans-serif;
+	font-size: 14px;
+	text-align: justify;
+}
+#nav-top .nav-link.active{
+	background-color: white;
+	box-shadow: 0px 3px 3px #ddd;
+	border-bottom: 3px solid black;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+#clients{
+	background-color: white;
+	margin:0;
+	padding: 0;
+}
+#clients img{
+	width:100px;
+	height: 100px;
+	border:2px solid #ccc;
+	border-radius: 50%;
+}
+.carousel-indicators li{
+		width:20px;
+		height: 20px;
+		background:red;
+		box-sizing: border-box;
+	}
+	
+	#pricing{
+		background-color: white;
+	margin:0;
+	padding: 0;
+	}
+	#fafa-icon i{
+		width: 30px;
+		height: 30px;
+		border: 1px solid #ccc;
+		font-size: 25px;
+	    padding-top: 5px;
+	    border-radius: 5px;
+	}
+@media (max-width: 768px)
+{
+	#home{
+		margin-top: 50px;
+	}
+}
